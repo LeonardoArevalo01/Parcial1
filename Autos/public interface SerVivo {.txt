@@ -1,0 +1,5 @@
+public interface Automovil {
+    void encender();
+    void apagar();
+    
+}

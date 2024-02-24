@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="Calculadora par ensayos básicos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="169dp"
+        android:layout_height="40dp"
+        android:text="MULTIPLICAR"
+        app:icon="@android:drawable/btn_dialog"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="163dp"
+        android:layout_height="42dp"
+        android:background="#0027FF"
+        android:backgroundTint="#0027FF"
+        android:text="SUMA"
+        app:icon="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="167dp"
+        android:layout_height="36dp"
+        android:text="RESTA"
+        app:icon="@android:drawable/bottom_bar"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="166dp"
+        android:layout_height="52dp"
+        android:text="DIVIDIR"
+        app:icon="@android:drawable/btn_dropdown"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="238dp"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Ingresar texto random aquí"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <LinearLayout
+        android:layout_width="414dp"
+        android:layout_height="140dp"
+        android:background="#FF0000"
+        android:backgroundTint="#FF0000"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="590dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="69dp"
+        android:layout_height="468dp"
+        android:background="#9C27B0"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="120dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="91dp"
+        android:layout_height="465dp"
+        android:background="#0027FF"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="120dp"></LinearLayout>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="131dp"
+        android:layout_height="67dp"
+        android:text="Encender"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
